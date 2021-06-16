@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	fmt.Println(os.Args[1:])
+	fmt.Println("Printing args given knock-knock:", os.Args[1:])
 
 	fmt.Println("Knock knock")
 	fmt.Println("Who's there?")
